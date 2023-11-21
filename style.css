@@ -11,6 +11,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
 }
 
 .container {
@@ -72,6 +73,7 @@ body {
 
 .informations {
     max-width: 1200px;
+    margin: 0 auto;
 }
 .infor-1 {
     max-width: 1200px;
@@ -136,10 +138,30 @@ body {
     align-items: center;
 }
 
-.medee {
-    margin: 50px 20px;
+.medeelel {
+    margin: 80px 20px
 }
 
+.medee {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.laster {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid black;
+}
+
+.laster-logo {
+    width: 100px;
+}
+.laster-text {
+    width: 1100px;
+    margin: 0 auto;
+
+}
 @media (min-width:640px) {
     .l-header {
         gap:20px;
