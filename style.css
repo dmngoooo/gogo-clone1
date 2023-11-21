@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+}
+
+.box {
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: aqua;
+    opacity: 0.5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+}
+
+.l-header {
+    display: flex;
+}
+
+.l-header-logo {
+    width: 90px;
+}
+
+.l-header-menu {
+    display: none;
+}
+
+.l-header-weather {
+    width: 270px;
+    flex: 1;
+}
+
+.l-header-bar {
+    width: 70px;
+}
+.tab {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.tab-item {
+    justify-content: center;
+    align-items: center;
+}
+ 
+.smlltitle{
+    max-width: 1200px;
+    display: flex;  
+    margin: 0 auto;
+    background-color: aqua;
+}
+
+.title-first {
+    width: 326px;
+    background-color: aqua;
+}
+
+.title-second {
+    width: 326px;
+    background-color: blue;
+}
+
+.title-third {
+    width: 326px;
+    background-color:black;
+}
+
+.infor {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+@media (min-width:640px) {
+    .l-header {
+        gap:20px;
+    }
+    .l-header-menu {
+        display: block;
+        flex: 1;
+    }
+    .l-header-bar {
+        display: none;
+    }
+    .l-header-weather {
+        width: 270px;
+        flex: none;      
+    }
+}
+
+@media (min-width:640px) {
+    .tab-item {
+        height: 500px;
+        /* max-width: 1200px; */
+        justify-content: center;
+        align-items: center;
+    }
+}
