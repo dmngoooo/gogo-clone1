@@ -6,7 +6,7 @@ body {
     height: 250px;
     border: 1px solid black;
     border-radius: 8px;
-    background-color: aqua;
+    background-color:palevioletred;
     opacity: 0.5;
     display: flex;
     justify-content: center;
@@ -70,11 +70,76 @@ body {
     background-color:black;
 }
 
-.infor {
+.informations {
+    max-width: 1200px;
+}
+.infor-1 {
     max-width: 1200px;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px 20px;
+    align-items: center;
 }
+
+.infor-2 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-3 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-4 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-5 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-6 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-7 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-8 {
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.infor-9{
+    max-width: 1200px;
+    text-align: center;
+    margin: 20px 20px;
+    align-items: center;
+}
+
+.medee {
+    margin: 50px 20px;
+}
+
 @media (min-width:640px) {
     .l-header {
         gap:20px;
