@@ -75,6 +75,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
 }
+.infor {
+    display: block;
+}
 .infor-1 {
     max-width: 1200px;
     text-align: center;
@@ -152,16 +155,34 @@ body {
     margin: 0 auto;
     max-width: 1200px;
     border: 1px solid black;
+    gap: 300px;
 }
 
 .laster-logo {
     width: 100px;
 }
 .laster-text {
-    width: 1100px;
+    width: 800px;
     margin: 0 auto;
 
 }
+
+.addres {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1200px;
+    border: 1px solid black;
+    gap: 500px;
+}
+
+.addres-text {
+    width: 400px;
+}
+
+.addres-socials {
+    width: 300px;
+}
+
 @media (min-width:640px) {
     .l-header {
         gap:20px;
@@ -185,5 +206,75 @@ body {
         /* max-width: 1200px; */
         justify-content: center;
         align-items: center;
+    }
+}
+@media (min-width:640px) {
+    .informations {
+        max-width: 1200px;
+        margin: 0 auto;
+        width: 756px;
+        padding: 30px;
+        display: flex;
+    }
+    .infor {
+        display: flex;
+        flex-wrap: wrap;
+        
+        
+    }
+    .infor-1 {
+        max-width: 1200px;
+        text-align: center;
+        align-items: center;
+        width: 378px;
+    }
+    
+    .infor-2 {
+        max-width: 1200px;
+        text-align: center;
+        align-items: center;
+        width: 378px;
+    }
+    
+    .infor-3 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-4 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-5 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-6 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-7 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-8 {
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
+    }
+    
+    .infor-9{
+        max-width: 1200px;
+        text-align: center;
+        width: 378px;
     }
 }
