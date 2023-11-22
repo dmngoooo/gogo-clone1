@@ -7,12 +7,13 @@ body {
     border: 1px solid black;
     border-radius: 8px;
     background-color:palevioletred;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0 auto;
     font-size: 30px;
+    max-width: 1200px;
 }
 
 .container {
@@ -43,42 +44,31 @@ body {
 .tab {
     max-width: 1200px;
     margin: 0 auto;
+    display: block;
 }
-.tab-item {
-    justify-content: center;
-    align-items: center;
+
+.tab-text {
+    display: block;
+    width: 500px;
+    border: 1px solid black;
+    height: 100px;
 }
- 
-.smlltitle{
+
+.smlltitle {
+    display: flex;
     max-width: 1200px;
-    display: flex;  
     margin: 0 auto;
-    background-color: aqua;
-    border: none;
-}
-
-.title-first {
-    width: 326px;
-    background-color: aqua;
-}
-
-.title-second {
-    width: 326px;
-    background-color: blue;
-}
-
-.title-third {
-    width: 326px;
-    background-color:black;
 }
 
 .grid-container {
     max-width: 1200px;
-    width: 600px;
     margin: 0 auto;
-    display: grid;
     padding: 10px 10px;
-    grid-template-columns: 600px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 30px 30px;
+    row-gap: 30px;
+    column-gap: 30px;
 }
 
 .medeelel {
@@ -123,7 +113,7 @@ body {
     width: 300px;
 }
 
-@media (min-width:640px) {
+@media (min-width:960px) {
     .l-header {
         gap:20px;
     }
@@ -140,13 +130,16 @@ body {
     }
 }
 
-@media (min-width:640px) {
-    .tab-item {
-        height: 500px;
-        /* max-width: 1200px; */
-        justify-content: center;
-        align-items: center;
+@media (min-width:960px) {
+    .tab {
+            display: flex;
+            margin: 0 auto;  
+            width: 572px;
+            padding: 30px;
+    }
+    .tab-text {
+        display: flex;
     }
 }
-@media (min-width:640px) {
+@media (min-width:960px) {
 }
