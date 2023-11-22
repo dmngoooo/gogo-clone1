@@ -47,20 +47,21 @@ body {
     display: block;
 }
 
-.tab-text {
-    display: block;
-    width: 500px;
-    border: 1px solid black;
-    height: 100px;
-}
-
 .smlltitle {
     display: flex;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-.grid-container {
+.flex-container {
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* .grid-container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 10px 10px;
@@ -69,7 +70,7 @@ body {
     padding: 30px 30px;
     row-gap: 30px;
     column-gap: 30px;
-}
+} */
 
 .medeelel {
     margin: 80px 20px
@@ -113,7 +114,7 @@ body {
     width: 300px;
 }
 
-@media (min-width:960px) {
+@media (min-width:640px) {
     .l-header {
         gap:20px;
     }
@@ -130,15 +131,12 @@ body {
     }
 }
 
-@media (min-width:960px) {
+@media (min-width:640px) {
     .tab {
-            display: flex;
+            /* display: flex; */
             margin: 0 auto;  
-            width: 572px;
-            padding: 30px;
-    }
-    .tab-text {
-        display: flex;
+            /* width: 572px; */
+            /* padding: 30px; */
     }
 }
 @media (min-width:960px) {
