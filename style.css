@@ -12,6 +12,7 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
+    font-size: 30px;
 }
 
 .container {
@@ -71,74 +72,13 @@ body {
     background-color:black;
 }
 
-.informations {
+.grid-container {
     max-width: 1200px;
     margin: 0 auto;
-}
-.infor {
-    display: block;
-}
-.infor-1 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-2 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-3 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-4 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-5 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-6 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-7 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-8 {
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
-}
-
-.infor-9{
-    max-width: 1200px;
-    text-align: center;
-    margin: 20px 20px;
-    align-items: center;
+    display: grid;
+    padding: 10px 10px;
+    /* grid-template: 600px; */
+    grid-template-columns: 600px;
 }
 
 .medeelel {
@@ -209,72 +149,5 @@ body {
     }
 }
 @media (min-width:640px) {
-    .informations {
-        max-width: 1200px;
-        margin: 0 auto;
-        width: 756px;
-        padding: 30px;
-        display: flex;
-    }
-    .infor {
-        display: flex;
-        flex-wrap: wrap;
-        
-        
-    }
-    .infor-1 {
-        max-width: 1200px;
-        text-align: center;
-        align-items: center;
-        width: 378px;
-    }
     
-    .infor-2 {
-        max-width: 1200px;
-        text-align: center;
-        align-items: center;
-        width: 378px;
-    }
-    
-    .infor-3 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-4 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-5 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-6 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-7 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-8 {
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
-    
-    .infor-9{
-        max-width: 1200px;
-        text-align: center;
-        width: 378px;
-    }
 }
