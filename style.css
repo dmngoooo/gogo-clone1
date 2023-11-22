@@ -72,48 +72,6 @@ body {
     column-gap: 30px;
 } */
 
-.medeelel {
-    margin: 80px 20px
-}
-
-.medee {
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.laster {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
-    border: 1px solid black;
-    gap: 300px;
-}
-
-.laster-logo {
-    width: 100px;
-}
-.laster-text {
-    width: 800px;
-    margin: 0 auto;
-
-}
-
-.addres {
-    display: flex;
-    margin: 0 auto;
-    max-width: 1200px;
-    border: 1px solid black;
-    gap: 500px;
-}
-
-.addres-text {
-    width: 400px;
-}
-
-.addres-socials {
-    width: 300px;
-}
-
 @media (min-width:640px) {
     .l-header {
         gap:20px;
