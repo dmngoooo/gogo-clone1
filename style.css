@@ -74,10 +74,10 @@ body {
 
 .grid-container {
     max-width: 1200px;
+    width: 600px;
     margin: 0 auto;
     display: grid;
     padding: 10px 10px;
-    /* grid-template: 600px; */
     grid-template-columns: 600px;
 }
 
@@ -149,5 +149,4 @@ body {
     }
 }
 @media (min-width:640px) {
-    
 }
