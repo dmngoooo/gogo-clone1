@@ -35,6 +35,16 @@ body {
     opacity: 0.5;
     background-color: aqua;
  }
+
+ .item-box5 {
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    background-color: aqua;
+ }
 .container {
     margin: 0 auto;
     max-width: 1200px;
@@ -99,6 +109,7 @@ body {
     display: grid;
     /* grid-template-columns: 10px; */
     row-gap: 10px;
+    overflow: scroll;
 }
 
 .grid-addres {
@@ -110,6 +121,10 @@ body {
     padding: 15px;
 }
 
+.item-box5 {
+    grid-column-start: 5;
+    grid-column-end: 1;
+}
 @media (min-width:640px) {
     .l-header {
         gap:20px;
