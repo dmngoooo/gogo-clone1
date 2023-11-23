@@ -11,10 +11,20 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    /* margin: 0 auto; */
     font-size: 30px;
-    max-width: 1200px;
 }
+ .flx-box {
+    height: 250px;
+    border: 1px solid black;
+    border-radius: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    background-color: aqua;
+    width: 100%;
+ }
 
 .container {
     margin: 0 auto;
@@ -54,23 +64,38 @@ body {
 }
 
 .flex-container {
-    display: flex;
+    display:flex;
     padding: 10px;
     gap: 10px;
     max-width: 1200px;
     margin: 0 auto;
 }
 
-/* .grid-container {
+.tsaashuzeh {
+    padding: 20px;
+}
+
+.grid-container {
     max-width: 1200px;
     margin: 0 auto;
-    padding: 10px 10px;
+    padding: 0 15px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    padding: 30px 30px;
-    row-gap: 30px;
-    column-gap: 30px;
-} */
+    grid-template-columns: 1fr;
+    row-gap: 10px;
+}
+
+.grid-lasters {
+    max-width: 1200px;
+    padding: 0 15px;
+    display: grid;
+    /* grid-template-columns: 10px; */
+    row-gap: 10px;
+}
+
+.grid-addres {
+    display: grid;
+    max-width: 1200px;
+}
 
 @media (min-width:640px) {
     .l-header {
