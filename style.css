@@ -86,6 +86,25 @@ body {
     display: none;
 }
 
+.section-grid {
+    background-color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.grid {
+    height: 235px;
+    width: 100%;
+    gap: 10px;
+}
+
+.box-grid {
+    display: flex;
+    width: 1200px;
+    gap: 10px;
+}
+
+.
 /* .flx-box {
     height: 250px;
     border: 1px solid black;
@@ -159,6 +178,7 @@ body {
     grid-column-start: 5;
     grid-column-end: 1;
 } */
+
 @media (min-width:640px) {
     .l-header {
         gap:20px;
