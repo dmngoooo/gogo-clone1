@@ -30,9 +30,7 @@ body {
 
 .container {
     margin: 0 auto;
-    max-width: 1200px;
-    box-sizing: border-box;
-    row-gap: 10px;
+    /* max-width: 1200px; */
     background-color: aliceblue;
 }
 
@@ -87,9 +85,8 @@ body {
 }
 
 .section-grid {
-    background-color: blue;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    background-color: white;
+    margin: 0 auto;
 }
 
 .grid {
@@ -104,7 +101,95 @@ body {
     gap: 10px;
 }
 
-.
+.interview {
+    display: grid;
+    gap: 10px;
+    background-color: white;
+}
+
+.interview-box {
+    height: 200px;
+    background-color: blueviolet;
+}
+
+.interview-live {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 10px;
+    background-color: aliceblue;
+}
+
+@media (min-width:640px) {
+    .box-grid {
+        gap: 10px;
+        display: flex;
+        height: 235px;
+    }
+}
+
+@media (min-width:960px) {
+    .container {
+        max-width: 1200px;
+        padding: 0 40px;
+    }
+    .l-header {
+        gap: 20px;
+        margin-bottom: 20px;
+        width: 1200px;
+    }
+    .l-header-logo {
+        width: 116px;
+    }
+    .l-header-weather {
+        width: 100%;
+        flex: 1;
+    }
+    .tab {
+        width: 100%;
+    }
+    .section-grid {
+        background-color: aliceblue;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .grid {
+        height: 235px;
+        width: 100%;
+        background-color: aquamarine;
+    }
+    .box-grid {
+        display: flex;
+        width: 1500px;
+        gap: 20px;
+    }
+    .main-article {
+        display: flex;
+    }
+    .main-article-section {
+        max-width: 708px;
+        display: flex;
+    }
+
+    .main-article-section1 {
+        width: 290px;
+        display: flex;
+        flex-direction: column;
+        padding: 0 0 0 120px;
+        margin-bottom: 10px;
+    }
+    .box-grid {
+        gap: 10px;
+        display: flex;
+    }
+
+    .interview-live {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 10px;
+        background-color: white;
+    }
+
+}
 /* .flx-box {
     height: 250px;
     border: 1px solid black;
@@ -179,7 +264,7 @@ body {
     grid-column-end: 1;
 } */
 
-@media (min-width:640px) {
+/* @media (min-width:640px) {
     .l-header {
         gap:20px;
     }
@@ -194,15 +279,4 @@ body {
         width: 270px;
         flex: none;      
     }
-}
-
-@media (min-width:640px) {
-    .tab {
-            /* display: flex; */
-            margin: 0 auto;  
-            /* width: 572px; */
-            /* padding: 30px; */
-    }
-}
-@media (min-width:960px) {
-}
+} */
