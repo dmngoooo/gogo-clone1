@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    background-color: aliceblue;
 }
 
 .box {
@@ -44,15 +45,19 @@ body {
 
 .l-header-menu {
     display: flex;
+    align-items: center;
 }
 
 .l-header-weather {
     width: 270px;
     flex: 1;
+    display: none;
+    align-items: center;
 }
 
 .l-header-bar {
     width: 70px;
+    display: flex;
 }
 .tab {
     max-width: 1200px;
@@ -144,6 +149,16 @@ body {
         gap: 10px;
         background-color: white;
     }
+    .l-header-weather {
+        display: none;
+        align-items: center;
+    }
+    .l-header-bar {
+        display: flex;
+    }
+    .btn {
+        display: none;
+    }
 }
 
 @media (min-width:960px) {
@@ -168,11 +183,26 @@ body {
     }
     .l-header-weather {
         width: 270px;
-        flex: none;
+        flex:none;
+        display: flex;
+        gap: 10px;
     }
     .tab {
         width: 100%;
+        /* display: flex; */
+        margin: 0 auto;
+        padding: 0 40px;
     }
+     .btn {
+        background-image:linear-gradient( 129deg,#c40097,#d6710b);
+        padding: 8px 15px;
+        color: white;
+        font-size: 12px;
+        border-radius: 10px;
+        display: block;
+     }
+
+
     .main-article {
         display: flex;
         max-width: 1200px;
