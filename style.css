@@ -238,13 +238,19 @@ body {
         overflow: hidden;
      }
      .tab-image {
-        width: 542px;
-        height: 385px;
+        width: 50%;
+        height: 100%;
         padding-left: 15px;
         object-fit: cover;
+        transition: transform 0.5s;
      }
      .tabs:hover .tab-image {
         transform: scale(1.2);
+     }
+     .tab-link {
+        position: absolute;
+        /* background-color: black; */
+        inset: 0;
      }
 
 
