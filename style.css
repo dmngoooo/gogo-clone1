@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: aliceblue;
+    font-family: sans-serif;
 }
 
 .box {
@@ -63,6 +64,9 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     display: block;
+}
+.btn {
+    display: none;
 }
 
 .smlltitle {
@@ -189,10 +193,14 @@ body {
     }
     .tab {
         width: 100%;
-        /* display: flex; */
+        display: block;
         margin: 0 auto;
-        padding: 0 40px;
+        /* padding: 0 40px; */
+        background-color: black;
+        height: 385px;
+        overflow: hidden;
     }
+    
      .btn {
         background-image:linear-gradient( 129deg,#c40097,#d6710b);
         padding: 8px 15px;
@@ -200,8 +208,49 @@ body {
         font-size: 12px;
         border-radius: 10px;
         display: block;
+        transition: padding 0.2s ease-in-out;
+     }
+     .btn:hover {
+        padding: 8px 25px;
      }
 
+     .tabs {
+        display: flex;
+        gap: 15px;
+        /* align-items: center; */
+        color: white;
+        justify-content: space-between;
+        position: relative;
+     }
+
+     .tab-ttlrs {
+        width: 500px;
+        height: 300px;
+        padding-left: 40px;
+     }
+     .tab-text {
+        width: 50%;
+     }
+     .tab-textr {
+        color: gray;
+        line-height: 20px;
+        height: 60px;
+        overflow: hidden;
+     }
+     .tab-image {
+        width: 542px;
+        height: 385px;
+        padding-left: 15px;
+        object-fit: cover;
+     }
+     .tabs:hover .tab-image {
+        transform: scale(1.2);
+     }
+
+
+     .smlltitle {
+        display: none;
+    }
 
     .main-article {
         display: flex;
