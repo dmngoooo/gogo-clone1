@@ -193,12 +193,11 @@ body {
     }
     .tab {
         width: 100%;
-        display: block;
         margin: 0 auto;
         /* padding: 0 40px; */
-        background-color: black;
+        background-color: whitesmoke;
         height: 385px;
-        overflow: hidden;
+        border-radius: 8px;
     }
     
      .btn {
@@ -216,20 +215,19 @@ body {
 
      .tabs {
         display: flex;
-        gap: 15px;
-        /* align-items: center; */
         color: white;
         justify-content: space-between;
-        position: relative;
      }
 
      .tab-ttlrs {
-        width: 500px;
+        /* width: 500px; */
         height: 300px;
         padding-left: 40px;
      }
      .tab-text {
-        width: 50%;
+        /* width: 50%; */
+        height: 118px;
+        color: #000;
      }
      .tab-textr {
         color: gray;
@@ -237,22 +235,71 @@ body {
         height: 60px;
         overflow: hidden;
      }
-     .tab-image {
+     .tab-shares {
+        width: 506px;
+        height: 36px;
+        display: flex;
+        margin-top: 20px;
+        transition: padding 0.2s ease-in-out;
+     }
+
+     .tab-shares:hover .tab-share {
+        padding: 5px 20px;
+     }
+
+     /* .tab-shares:hover .tab-comment {
+        padding: 5px 20px;
+     } */
+
+    .tab-comment,
+    .tab-share {
+       padding: 5px 10px;
+       display: flex;
+       width: 74px;
+       font-size: 16px;
+       color: #767676;
+       gap: 5px;
+       background-color: #F0efef;
+       align-items: center;
+       justify-content: center;
+       border-radius: 8px;
+       margin-right: 20px;
+
+     }
+     .tab-images {
         width: 50%;
-        height: 100%;
+        position: relative;
+        height: 385px;
+     }
+     .tab-image {
         padding-left: 15px;
         object-fit: cover;
-        transition: transform 0.5s;
+        height: 100%;
      }
-     .tabs:hover .tab-image {
+     .tab-images:hover .tab-link {
         transform: scale(1.2);
+        opacity: 1;
      }
      .tab-link {
         position: absolute;
-        /* background-color: black; */
+        background-color:rgba(0, 0, 0, 0.5);
         inset: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        opacity: 0;
+        transition: opacity 0.5s;
+     }
+     .tab-images:hover .tab-image {
+        transform: scale(1.2);
      }
 
+     .tab-highlights {
+        display: flex;
+     }
+     .highlights {
+        display: flex;
+     }
 
      .smlltitle {
         display: none;
