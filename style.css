@@ -245,11 +245,11 @@ body {
         width: 506px;
         height: 36px;
         display: flex;
-        margin-top: 20px;
-        transition: padding 0.2s ease-in-out;
+        margin-top: 20px; 
      }
 
      .tab-shares:hover .tab-share {
+        transition: padding 0.3s ease-in-out;
         padding: 5px 20px;
      }
 
@@ -309,8 +309,9 @@ body {
         padding-bottom: 50px;
         gap: 20px;
      }
-     .highlights {
+     .highlights-first {
         position: relative;
+        overflow: hidden;
        
      }
      .highlights1-image {
@@ -327,10 +328,16 @@ body {
         justify-content: center;
         align-items: center;
         background-color: rgba(0, 0, 0, 0.5);
-        border-radius: 8px;
+        opacity: 0;
         overflow: hidden;
-        height: 175px;
-       
+        height: 175px; 
+        transition: opacity 0.5s;
+     }
+     .highlights-first:hover .highlights1-link {
+        opacity: 1 ;
+     }
+     .highlights-first:hover .highlights1-image {
+        transform: scale(1.2);
      }
 
      .highlights2 {
