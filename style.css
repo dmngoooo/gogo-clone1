@@ -309,17 +309,26 @@ body {
         padding-bottom: 50px;
         gap: 20px;
      }
+
+     .highlights-second,
      .highlights-first {
         position: relative;
-        overflow: hidden;
-       
+        overflow: hidden;  
      }
+
+     .highlights4-image,
+     .highlights3-image,
+     .highlights2-image,
      .highlights1-image {
         width: 263.5px;
         object-fit: cover;
         height: 175px;
         transition: transform 0.5s;
      }
+
+     .highlights4-link,
+     .highlights3-link,
+     .highlights2-link,
      .highlights1-link {
         position: absolute;
         display: flex;
@@ -333,6 +342,10 @@ body {
         height: 175px; 
         transition: opacity 0.5s;
      }
+
+     .highlights-fourth:hover .highlights4-link,
+     .highlights-third:hover .highlights3-link,
+     .highlights-second:hover .highlights2-link,
      .highlights-first:hover .highlights1-link {
         opacity: 1 ;
      }
@@ -340,19 +353,11 @@ body {
         transform: scale(1.2);
      }
 
-     .highlights2 {
-        width: 263.5px;
-        height: 175px;
-     }
-     .highlights3 {
-        width: 263.5px;
-        height: 175px;
-     }
 
-     .highlights4 {
+     /* .highlights4 {
         width: 263.5px;
         height: 270px;
-     }
+     } */
 
      .smlltitle {
         display: none;
