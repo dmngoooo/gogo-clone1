@@ -311,11 +311,17 @@ body {
      .highlights {
         display: flex;
         gap: 20px;
+        /* position: relative; */
      }
      .highlights1 {
         width: 263.5px;
         object-fit: cover;
         height: 175px;
+        position: relative;
+     }
+     .highlights1-link {
+        position: absolute;
+        color: #000;
      }
 
      .highlights2 {
