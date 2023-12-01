@@ -109,12 +109,6 @@ body {
     gap: 10px;
 }
 
-.box-grid {
-    display: flex;
-    width: 1200px;
-    gap: 10px;
-}
-
 .interview {
     display: grid;
     gap: 10px;
@@ -136,11 +130,7 @@ body {
 }
 
 @media (min-width:640px) {
-    .box-grid {
-        gap: 10px;
-        display: flex;
-        height: 235px;
-    }
+    
     .interview {
         display: grid;
         gap: 10px;
@@ -309,14 +299,13 @@ body {
         padding-bottom: 50px;
         gap: 20px;
      }
-
+     .highlights-third,
      .highlights-second,
      .highlights-first {
         position: relative;
         overflow: hidden;  
      }
-
-     .highlights4-image,
+    
      .highlights3-image,
      .highlights2-image,
      .highlights1-image {
@@ -326,7 +315,6 @@ body {
         transition: transform 0.5s;
      }
 
-     .highlights4-link,
      .highlights3-link,
      .highlights2-link,
      .highlights1-link {
@@ -343,21 +331,50 @@ body {
         transition: opacity 0.5s;
      }
 
-     .highlights-fourth:hover .highlights4-link,
      .highlights-third:hover .highlights3-link,
      .highlights-second:hover .highlights2-link,
      .highlights-first:hover .highlights1-link {
         opacity: 1 ;
      }
+     .highlights-third:hover .highlights3-image,
+     .highlights-second:hover .highlights2-image,
      .highlights-first:hover .highlights1-image {
         transform: scale(1.2);
      }
+     .highlights3-text,
+     .highlights2-text,
+     .highlights1-text {
+        width: 263px;
+        height: 44px;
+        overflow: hidden;
+        line-height: 20px;
+     }
+     .highlights3-shares,
+     .highlights2-shares,
+     .highlights1-shares {
+        width: 263px;
+        height: 22px;
+        margin-top: 10px;
+        display: flex;
+        gap: 20px;
+        color: #8e8e8e;
+     }
+     .highlights3-share,
+     .highlights2-share,
+     .highlights1-share {
+        display: flex;
+        gap: 5px;
+     }
+     .highlights3-comment,
+     .highlights2-comment,
+     .highlights1-comment {
+        display: flex;
+     }
 
-
-     /* .highlights4 {
+     .highlights4-image {
         width: 263.5px;
         height: 270px;
-     } */
+     }
 
      .smlltitle {
         display: none;
@@ -382,12 +399,6 @@ body {
         padding: 0 0 0 120px;
         margin-bottom: 10px;
     }
-    
-    .box-grid {
-        gap: 10px;
-        display: flex;
-    }
-    
     .interview-live {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -430,16 +441,35 @@ body {
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    .grid {
+    .section-stories {
+        margin: 0 auto;
+    }
+    .l-stories {
+     max-width: 1200px;
+     overflow: scroll;
+     margin: 0 auto;
+     width: 170px;
+       height: 235px;
+
+    }
+    .stories-title {
+        margin: 0 auto;
+    }
+    .box-grid {
+       width: 170px;
+       height: 235px;
+    }
+
+
+
+    /* .grid {
         height: 235px;
         width: 170px;
         background-color: black;
-    }
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    } */
     .box-grid {
-        display: flex;
-        max-width: 1500px;
-        gap: 20px;
-        width: 170px;
+        max-width: 1200px;
     }
 
 }
