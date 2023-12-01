@@ -461,18 +461,15 @@ body {
     }
 
 
-
+}
     /* .grid {
         height: 235px;
         width: 170px;
         background-color: black;
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
     } */
-    .box-grid {
-        max-width: 1200px;
-    }
 
-}
+
 /* .flx-box {
     height: 250px;
     border: 1px solid black;
